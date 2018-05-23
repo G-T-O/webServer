@@ -7,7 +7,7 @@ var express = require('express'),
  
 // mongoose instance connection url connection
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb+srv://admin:root@cluster0-qj0bf.mongodb.net/test');
+mongoose.connect('');//add connection to your mangodb
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
